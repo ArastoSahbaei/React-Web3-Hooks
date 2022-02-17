@@ -1,10 +1,14 @@
 {
   "name": "react-web3-hooks",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "useWeb3.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArastoSahbaei/React-Web3-Hooks.git"
   },
   "author": "Arasto",
   "license": "ISC",
