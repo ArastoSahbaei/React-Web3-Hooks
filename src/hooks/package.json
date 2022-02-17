@@ -1,6 +1,6 @@
 {
   "name": "react-web3-hooks",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "useWeb3.tsx",
   "scripts": {
@@ -10,6 +10,7 @@
     "type": "git",
     "url": "https://github.com/ArastoSahbaei/React-Web3-Hooks.git"
   },
+  "keywords": ["Web3, Crypto, Ethereum, MetaMask, React, Hooks, Decentralization"],
   "homepage": "TBA",
   "author": "Arasto",
   "license": "MIT",
