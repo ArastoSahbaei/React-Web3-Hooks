@@ -1,0 +1,15 @@
+{
+  "name": "react-web3-hooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "useWeb3.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arasto",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
