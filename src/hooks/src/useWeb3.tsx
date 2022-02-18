@@ -21,7 +21,7 @@ export const useWeb3 = () => {
       }
    }
 
-   const getWalletBalance = async (address: any) => {
+   const getWalletBalance = async (address: string) => {
       try {
          const response = await ethereum.request({ method: requestBalance, params: [address, 'latest'] })
          const accountBalanceFormated = ethers.utils.formatEther(response)
@@ -32,9 +32,24 @@ export const useWeb3 = () => {
       }
    }
 
+   const createPayment = async (wallet: string, amount: number) => {
+      try {
+         const provider = new ethers.providers.Web3Provider(ethereum)
+         const signer = provider.getSigner()
+         ethers.utils.getAddress(wallet)
+         await signer.sendTransaction({
+            to: wallet,
+            value: ethers.utils.parseEther(amount.toString())
+         })
+      } catch (error) {
+         return error
+      }
+   }
+
    return {
       verifyWalletExtension,
       connectToWallet,
-      getWalletBalance
+      getWalletBalance,
+      createPayment
    }
 }
