@@ -5,6 +5,9 @@
 # Installing
    `npm i react-web3-hooks`
 
-# Functions & Documentation
+# Functions
+   * verifyWalletExtension
+   * connectToWallet
+   * getWalletBalance
 
-# Demonstration
+# Documentation & Demonstration 

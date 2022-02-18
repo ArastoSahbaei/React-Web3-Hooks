@@ -1,6 +1,6 @@
 {
   "name": "react-web3-hooks",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A React Hook that gives you access to the decentralized web",
   "main": "useWeb3.tsx",
   "scripts": {
