@@ -5,6 +5,6 @@
 # Installing
    `npm i react-web3-hooks`
 
-# Usage example
-
 # Functions & Documentation
+
+# Demonstration
