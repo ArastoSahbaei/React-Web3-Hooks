@@ -1,7 +1,7 @@
 {
   "name": "react-web3-hooks",
-  "version": "1.0.6",
-  "description": "",
+  "version": "1.0.7",
+  "description": "A React Hook that gives you access to the decentralized web",
   "main": "useWeb3.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
