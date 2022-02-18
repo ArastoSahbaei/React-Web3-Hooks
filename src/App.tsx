@@ -1,4 +1,4 @@
-import { useWeb3 } from './hooks/src/useWeb3'
+import { useWeb3 } from "./package/src/useWeb3"
 
 export const App = () => {
   const { verifyWalletExtension, connectToWallet, getWalletBalance, createPayment } = useWeb3()
