@@ -1,11 +1,18 @@
+import reportWebVitals from "../reportWebVitals"
+
 export const useWeb3 = () => {
-   const omg = () => {
-      console.log('ok this is working')
-      console.log('ok this is working')
-      console.log('ok this is working')
+
+   const connectToWallet = () => {
+      try {
+         return console.log('CONNECTING TO WALLET')
+      } catch (error) {
+         return error
+      }
    }
 
+   reportWebVitals(console.log)
+
    return {
-      omg
+      connectToWallet
    }
 }
