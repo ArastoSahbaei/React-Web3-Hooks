@@ -1,6 +1,6 @@
 # React-Web3-Hooks
 
-<p>A React Hook that gives you access to the decentralized web</p>
+<p>Access the decentralized web with a single React Hook</p>
 
 # Installing
    `npm i react-web3-hooks`
