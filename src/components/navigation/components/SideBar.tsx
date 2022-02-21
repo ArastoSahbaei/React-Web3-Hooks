@@ -13,7 +13,7 @@ export const SideBar = (props: { drawerIsOpen: boolean, drawerHandler: (handler:
 	return (
 		<Drawer isOpen={props.drawerIsOpen}>
 			<h1 onClick={() => handleNavigation(RoutingPath.home)}>{'React-Web3-Hooks'}</h1>
-			<Link onClick={() => handleNavigation(RoutingPath.verifyWalletExtension)}>{'verifyWalletExtension'}</Link>
+			<Link onClick={() => handleNavigation(RoutingPath.verifyWalletExtension)}>{'verifyWalletExtension()'}</Link>
 			<Link onClick={() => handleNavigation(RoutingPath.verifyWalletExtension)}>{'connectToWallet()'}</Link>
 			<Link onClick={() => handleNavigation(RoutingPath.verifyWalletExtension)}>{'getWalletBalance()'}</Link>
 			<Link onClick={() => handleNavigation(RoutingPath.verifyWalletExtension)}>{'createPayment()'}</Link>

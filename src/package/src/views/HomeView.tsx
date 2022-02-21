@@ -5,7 +5,7 @@ export const HomeView = () => {
 
    return (
       <div>
-         <h1>Access to the decentralized web, simplified.</h1>
+         <h1>The #1 React-Hook to Access the Decentralized Web</h1>
          <h3>Installation:</h3>
          <h3>Github link</h3>
          <h3>NPM package link</h3>
