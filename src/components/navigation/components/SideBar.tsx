@@ -12,7 +12,7 @@ export const SideBar = (props: { drawerIsOpen: boolean, drawerHandler: (handler:
 
 	return (
 		<Drawer isOpen={props.drawerIsOpen}>
-			<h1 onClick={() => handleNavigation(RoutingPath.home)}>{'React-Web3-Hooks'}</h1>
+			<Title onClick={() => handleNavigation(RoutingPath.home)}>{'React-Web3-Hooks'}</Title>
 			<Link onClick={() => handleNavigation(RoutingPath.verifyWalletExtension)}>{'verifyWalletExtension()'}</Link>
 			<Link onClick={() => handleNavigation(RoutingPath.verifyWalletExtension)}>{'connectToWallet()'}</Link>
 			<Link onClick={() => handleNavigation(RoutingPath.verifyWalletExtension)}>{'getWalletBalance()'}</Link>
@@ -40,10 +40,21 @@ const Drawer = styled.nav<values>`
 	transform: ${props => props.isOpen ? 'translateX(0)' : 'translateX(100)'}
 `
 
+const Title = styled.p`
+	text-align: center;
+	cursor: pointer;
+	font-size: 1.7rem;
+	border-bottom: 1px solid black;
+`
+
 const Link = styled.p`
 	padding: 1%;
 	cursor: pointer;
+	transition: 0.3s;
 	&:hover {
-		color: red;
+		color: blue;
+		background-color: orange;
+		transision: 0.3s;
+		text-align: center;
 	}
 `
